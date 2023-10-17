@@ -1,0 +1,587 @@
+*{
+    padding:0;
+    margin:0;
+    color:white;
+    
+}
+body{
+    background-color: #000;;
+    color:white;
+    font-family: 'Helvetica Neue',Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    /* padding:34px; */
+    margin:32px 2px;
+    padding:6px 90px;
+    position:relative;  /*  to make the header page up comman work i.e z-index*/
+    z-index:3;
+    
+}
+header div img {
+    width:150px;
+    padding:0;
+    margin:0;
+}
+
+header div button{
+    background-color: #e50914;
+    color:white;
+    border:0;
+    padding:10px 20px;
+    border-radius:3px;
+    width:px;
+
+}
+
+/* pseudo class */
+ header div button:hover{
+    background-color: #910c12;
+    cursor: pointer;
+ }
+
+
+header div select{
+    color:white;
+    background-color: transparent;
+}
+
+
+/* .background img{
+    width:100%;
+    opacity:0.6;
+    
+} */
+
+section.slide1{
+    position:relative;
+    top: -125px;
+    /* z-index:-1; this will make the email not clickable */
+
+}
+
+.container{
+    width: 100%;
+    position:absolute;
+
+    /* code to centralizing absolute tag inside relative tag */
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    margin:20px 0;
+     
+}
+
+.slide1 .background{
+    width:100%;
+    opacity: 0.51;
+    
+}
+
+
+div.container h1{
+    font-size:3em;
+    
+    font-weight: 900;
+
+
+  
+    
+}
+div.container p{
+    font-size:1.5em;
+  font-weight: 500;
+    
+}
+div.container p{
+    margin-top:10px;
+
+}
+
+.slide1 .container input{
+    padding: 24px 16px 8px 16px;
+    width: 344.7px;
+    height: 24px;
+    background-color: transparent;
+    color:white;
+    z-index: ;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline-color: white;
+    
+
+}
+.slide1 .container button{
+    background-color: #e50914;
+    padding:18px auto;
+    width:180px;
+    /* height: ; */
+    margin-left: 8px;
+    
+    border-radius: 6px;
+    font-size: 25px;
+    border:0;
+    cursor: pointer;
+    
+}
+
+.slide1 .container button:hover{
+    background-color: #910c12;
+}
+
+span.alignbutton{
+    display: flex;
+    justify-content: center;
+}
+
+
+section.slide2{
+    width: 100%;
+    height:500px;
+    display:flex;
+    border-top:8px solid rgb(66, 66, 66);
+    /* border-bottom:8px solid rgb(66, 66, 66); */
+    
+    /* position:relative; */
+    margin-top: -130px;
+    
+    
+
+}
+
+section.slide2 .div1{
+display: flex;
+flex-wrap: wrap;
+/* border: 2px solid white; */
+width:50%;
+
+
+
+
+align-content: center;
+
+/* margin-left: 32px;
+margin-right: 32px; */
+margin:32px 32px;
+padding-left: 90px;
+
+
+}
+
+
+
+section.slide2 div h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-weight: 900;
+    
+
+}
+
+section.slide2 div p{
+
+
+    font-size: 1.5em;
+}
+
+
+section.slide2 .div2{
+   
+    /* border: 2px solid rgb(9, 255, 0); */
+    margin:20px;
+   width:50%;
+   margin-right: 90px;
+   position:relative;
+    
+    }
+section.slide2 .div2 img{
+   
+  padding:50px 50px;
+  width:450px;
+
+}
+section.slide2 .div2 video{
+    position:absolute;
+    width:343px;
+    /* top:50%;
+    left:50%; */
+
+    /* transform: translate(-50%, -50%);
+    text-align: center;   */
+    top:111px;
+    left:103px;
+    z-index: -22;
+    
+    
+    
+
+
+}
+
+
+
+
+section.slide3{
+
+    width: 100%;
+    height:500px;
+    
+    border-top:8px solid rgb(66, 66, 66);
+  
+    display:grid;
+
+    grid-template-columns: 1fr 1fr;
+    margin:50px auto;
+    /* padding:auto 0; */
+    
+
+}
+
+section.slide3 img{
+    /* border:#e50914 solid; */
+    width:75%;
+    
+    /* margin-top: 90px; */
+    margin:60px auto;
+    margin-left: 120px;
+    margin:30px 130px 90px 110px;
+    /* padding:auto 0; */
+    /* padding-right: -22px; */
+   
+
+ 
+
+}
+section.slide3 div{
+    /* border:#0944e5 solid; */
+   
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    /* margin: 70px; */
+    margin-right: 90px;
+    /* height: 500px; */
+
+}
+section.slide3 div h1{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: 900;
+    width:80%;
+
+
+}
+
+section.slide3 div p{
+    
+    font-size: 1.7em;
+
+
+}
+
+section.slide4{
+  height: 398px;
+  width: 100%;
+  border-bottom:8px solid rgb(66, 66, 66);
+  border-top:8px solid rgb(66, 66, 66);
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  align-content: center;
+  justify-content: center;
+ 
+
+
+
+
+}
+section.slide4 div{
+    margin:32px 32px;
+ padding-left: 190px;
+
+}
+
+section.slide4 h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-weight: 900;
+    width: 20%;
+    /* margin-bottom:30px; */
+
+    
+}
+
+section.slide4 p{
+    font-size: 1.7em;
+    width:70%;
+    line-height: 30px;
+
+}
+
+section.slide5{
+
+    display:grid;
+    width:100%;
+    height: 500px;
+    border-bottom:8px solid rgb(66, 66, 66);
+    grid-template-columns: 1fr 1fr;
+
+
+}
+    
+section.slide5 img{
+
+    /* border:2px solid green; */
+    margin: 32px;
+    padding-left: 90px;
+    width: 75%;
+    padding-top: 32px;
+
+}
+
+section.slide5 div{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-right: 90px;
+
+}
+
+section.slide5 div h1{
+
+
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: 900;
+    width:76%;
+
+}
+
+section.slide5 div p{
+    font-size: 1.7em;
+
+    
+}
+
+
+section.slide6{
+    
+    padding: 72px 0;
+    min-height: auto;
+   
+    border-bottom:8px solid rgb(66, 66, 66);
+    
+}
+ section.slide6 div.faq h1{
+    text-align:center ;
+    font-size:3.125rem;
+    margin-bottom: 30px;
+}
+
+section.slide6 div.questions{
+    max-width: 986px;
+    margin:0 auto;
+    font-size: 1.5rem;
+    /* cursor:pointer; */
+   
+}
+
+section.slide6 div.question{
+
+    background-color: #303030;
+    margin-bottom: 8px;
+    
+    
+    
+
+}
+
+section.slide6 div.question label.header{
+    display: block;
+    padding:24px;
+    border-bottom: 1px solid #000;
+    position: relative;
+    cursor: pointer;
+
+
+}
+section.slide6 img.cross{
+   
+    width:25px;
+    height: 25px;
+    position: absolute;
+    top:30px;
+    right:30px;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+
+}
+
+section.slide6 div.question div.answer{
+
+    padding:0 24px;
+    max-height: 0;
+    overflow:hidden; 
+    transition: all 0.2s ease;
+
+
+}
+
+
+section.slide6 div.question input[type="checkbox"]:checked ~ div.answer{
+
+    padding:24px;
+    max-height:900px;
+}
+
+
+section.slide6 input[type="checkbox"]{
+    display:none;
+    /* cursor: pointer; */
+}
+section.slide6 div.question input[type="checkbox"]:checked ~ .header img.cross {
+
+    transform: rotate(180deg);
+}
+
+section.slide6 div.faq div.question:hover{
+    background-color: #646262;
+    
+}
+section.slide6 .ready{
+    margin-bottom: 20px;
+    margin-top: 45.6px;
+}
+section.slide6 .ready p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    
+}
+
+section.slide6 .cc{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+section.slide6 .lastemail{
+    padding:24px 16px 8px 16px;
+   
+    width: 376.750px;
+    background-color: transparent;
+    border:1px solid ;
+    border-radius: 5px;
+    /* outline:solid white; */
+}
+
+section.slide6 .lastemail:focus{
+    outline: 2px solid white;
+}
+section.slide6 .lastbotton{
+    padding:14px;
+    background-color: #e50914;
+    width: 153.250px;
+    border-radius: 6px;
+    font-size: 20px;
+    border:0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+section.slide6 .lastbotton:hover{
+    background-color: #910c12;
+}
+
+section.slide7{
+    margin:0 150px;
+    /* border:3px solid green; */
+    padding:60px 0px;
+}
+
+footer{
+
+   
+    padding:20px ;
+    margin:10px auto;
+    line-height: 40px;
+    
+    
+}
+
+
+footer div ul {
+    width:770px;
+    list-style: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-items: center; */
+    /* margin:10px auto; */
+    column-gap: 100px;
+    
+}
+
+section.slide7 footer a.contact{
+    /* color:#e50914; */
+    /* text-align: center; */
+    /* border: 1px solid pink; */
+    display:block;
+    margin-bottom: 30px;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+footer ul.list li{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+div.language{
+    position: relative;
+}
+
+select#select{
+
+    margin-top: 20px;
+
+    background-color:#1a1919;
+    background-color: transparent;
+    padding:6px 36px;
+    border-radius:6px;
+    font-size: 15px;
+    padding-right: 0;
+    /* z-index: 200px; */
+
+}
+
+select#select:focus{
+outline: 2px solid white;}
+
+
+
+
+
+img.world{
+
+    width:20px;
+    height: 20px;
+    position:absolute;
+    left:9px;
+    top:26px;
+}
+
+p.netflixnigeria{
+    color:rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+}
+
+/* media query */
+/* 
+@media screen and ( max-width:982px ) {
+   .slide1{
+
+
+    
+   }
+    
+} */
